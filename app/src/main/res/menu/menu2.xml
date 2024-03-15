@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m2_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/ic_menu_save"
+        android:onClick="on_ok_click"
+        android:title="@string/butOK"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/m2_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:onClick="on_cancel_click"
+        android:title="@string/butCANCEL"
+        app:showAsAction="always" />
+</menu>
